@@ -1,0 +1,50 @@
+.selector{
+  margin-bottom:10px;
+}
+.copyright{
+  position:absolute;
+  top:0;
+  right:10;
+}
+.jumbotron{
+  background-image:url('elsa.png');
+  background-color:#C6F2FC;
+  background-size:700px;
+  background-repeat:no-repeat;
+  background-position: right bottom;
+}
+.jumbotron .container .row .col-xs-8{
+  background-color:rgba(198,242,252,0.6);
+}
+
+.scroll{
+  position:relative;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.timetable{
+  width:1125px;
+}
+.timetable .th{
+  font-weight:bold;
+}
+.timetable .row{
+  white-space: normal;
+}
+.timetable .row [class*="col-xs"]{
+  display: inline-block;
+}
+.refreshIconContainer{
+  position:absolute;
+  display:block;
+  top:0;
+  right:0;
+  z-index:1;
+}
+.refreshIconContainer .glyphicon-refresh{
+  background-color:white;
+}
+.refreshIconContainer .glyphicon-refresh:hover{
+  color:rgb(60,60,255);
+  cursor:pointer;
+}
