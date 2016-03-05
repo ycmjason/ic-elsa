@@ -52,6 +52,9 @@ $logger->log();
                   <li>
                     Elsa also saves your class preference. 
                   </li>
+                  <li>
+                  Image Ref: <a href="http://vignette3.wikia.nocookie.net/disneyprincess/images/f/f2/ElsaPromo.png/revision/latest?cb=20141127210433">http://vignette3.wikia.nocookie.net/disneyprincess/images/f/f2/ElsaPromo.png/revision/latest?cb=20141127210433</a>
+                </li>
                 </ul>
                 Changelog:
                 <ul class="hidden">
