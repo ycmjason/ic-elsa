@@ -31,7 +31,10 @@ $logger->log();
       <div class="container">
           <div class="row">
               <div class="col-xs-8">
-                <h2>Elsa <?=$VERSION?> - your exam timetable assistant.</h2>
+                <h2>
+                  <a target="_blank" href="https://github.com/ycmjason/ic-elsa"><img src="http://image005.flaticon.com/25/svg/25/25231.svg" style="height:1em;margin-top:-8px;"></img></a>
+                  Elsa <?=$VERSION?> - your exam timetable assistant.
+                </h2>
                 <h4>As usual, use it at your own risk.</h4>
               </div>
               <div class="col-xs-8">
@@ -103,7 +106,8 @@ $logger->log();
           </div>
       </div>
       <div class="copyright">
-        <h5><a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14">Jason Yu</a> &copy; 2016</h5>
+        <h5>
+          <a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14">Jason Yu</a> &copy; 2016</h5>
       </div>
     </header>
     <div class="container" style="margin-bottom:30px">
