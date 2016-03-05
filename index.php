@@ -38,10 +38,10 @@ $logger->log();
                 What is Elsa?
                 <ul>
                   <li>
-                    Elsa was created on 30 March. 
+                    Elsa was created on 30 March 2015. 
                   </li>
                   <li>
-                    Elsa shows the exam timetable starting from 27 April. 
+                    Elsa shows the exam timetable starting from 27 Apri 2015. 
                   </li>
                   <li>
                     Elsa filters the timetable according to your selection.
@@ -53,28 +53,27 @@ $logger->log();
                 Changelog:
                 <ul class="hidden">
                   <li>
-                    v2.0: Elsa will countdown the exam dates for you! Go revise! (31 March)
+                    v2.0: Elsa will countdown the exam dates for you! Go revise! (31 March 2015)
                   </li>
                   <li>
-                    v2.0: Elsa has its lovely background now. (31 March)
+                    v2.0: Elsa has its lovely background now. (31 March 2015)
                   </li>
                   <li>
                     v2.0: Elsa is using a favicon copied from <a target="_blank" href="http://pbs.twimg.com/profile_images/1208487557/favicon_E_2.jpg">here</a>, and a background picture from <a target="_blank" href="http://fc07.deviantart.net/fs70/i/2013/343/1/c/queen_elsa_png_frozen__by_ninetailsfoxchan-d6xayrt.png">here</a>. (31 March)
                   </li>
                   <li>
-                    v2.1: You can go to the corresponding note now easily. (1 Apr)
+                    v2.1: You can go to the corresponding note now easily. (1 Apr 2015)
                   </li>
                   <li>
-                    v2.1: You can access to pastpaper in Elsa too. (1 Apr)
+                    v2.1: You can access to pastpaper in Elsa too. (1 Apr) </li>
+                  <li>
+                    v2.2: Clicking on notes will link you to <a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14/georgia">Georgia</a> (1 Apr 2015)
                   </li>
                   <li>
-                    v2.2: Clicking on notes will link you to <a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14/georgia">Georgia</a> (1 Apr)
+                    v2.3: Hopefully now the notes link will bring you to the right session of Georgia without further clicking. (2 Apr 2015)
                   </li>
                   <li>
-                    v2.3: Hopefully now the notes link will bring you to the right session of Georgia without further clicking. (2 Apr)
-                  </li>
-                  <li>
-                    v2.4: Go ahead and like Elsa's Facebook Page now! (7 Apr)
+                    v2.4: Go ahead and like Elsa's Facebook Page now! (7 Apr 2015)
                   </li>
                 </ul>
                 <ul>
