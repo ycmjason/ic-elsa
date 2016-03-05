@@ -9,3 +9,4 @@ show*log
 secret
 *.pref
 *.pyc
+*.old
