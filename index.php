@@ -104,27 +104,28 @@ $logger->log();
           </div>
       </div>
       <div class="copyright">
-        <h5><a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14">Jason Yu</a> &copy; 2015</h5>
+        <h5><a target="_blank" href="http://www.doc.ic.ac.uk/~cmy14">Jason Yu</a> &copy; 2016</h5>
       </div>
     </header>
     <div class="container" style="margin-bottom:30px">
       <div class="row">
         <div class="col-md-6">
           <p>
-          Room numbers are for the Huxley Building unless otherwise stated. Any details given for examinations not organised by the Department of Computing are for advisory purposes only - please consult the information issued by the department concerned for the authoritative date, time, room and duration.
+Room numbers are for the Huxley Building unless otherwise stated. Any details given for examinations not organised by the Department of Computing are for advisory purposes only - please consult the information issued by the department concerned for the authoritative date, time, room and duration.
           </p>
           <p>
-          Candidates permitted extra time (and not using a computer) will sit in Room 219b for all examinations, unless otherwise advised. Candidates permitted the use of a computer will sit in Room 210 for the examinations concerned.
+Candidates permitted extra time (and not using a computer) will sit in Room 219b for all examinations, unless otherwise advised. Candidates permitted the use of a computer will sit in Room 210 for the examinations concerned, unless otherwise advised.
           </p>
         </div>
         <div class="col-md-3">
           Pastpapers:
           <ul>
-            <li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.09-10">2009-2010</a>
+            <li><a target="_blank" href="https://exams.doc.ic.ac.uk/archive.html">Archive</a>
             </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.10-11">2010-2011</a>
             </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.11-12">2011-2012</a>
             </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.12-13">2012-2013</a>
-            </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.13-14">2013-2014</a> (incomplete)
+            </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.13-14">2013-2014</a>
+            </li><li><a target="_blank" href="https://exams.doc.ic.ac.uk/pastpapers/papers.14-15/">2014-2015</a>
             </li>
           </ul>
         </div>
@@ -344,7 +345,7 @@ $("select").change(function(){
 $(".timetable").children(".row").not(".th").children(".col-xs-3").after(function(){
   var dateDiv = $(this).next();
   var timeDiv = $(this).next().next();
-  var date = new Date(dateDiv.html()+" 2015 "+timeDiv.html());
+  var date = new Date(dateDiv.html()+" 2016 "+timeDiv.html());
 //day column
   dateDiv.before("<div class=\"col-xs-1\">"+dateToWeekday(date)+"</div>");
   return "<div class=\"col-xs-2 countDownCell\"></div>";
@@ -374,7 +375,7 @@ function updateCountDown(){
     var oriText = $(this).text();
     var dateDiv = $(this).next().next();
     var timeDiv = dateDiv.next();
-    var date = new Date(dateDiv.html()+" 2015 "+timeDiv.html());
+    var date = new Date(dateDiv.html()+" 2016 "+timeDiv.html());
     var timeLeft = new TimeDiff(new Date(), date);
     if(timeLeft.getMilliseconds()<0){
       $(this).parent(".row").data("past", true);
