@@ -427,6 +427,7 @@ setInterval(updateCountDown, 1000);
 
 $("body").keydown(function(e){
   if(e.keyCode==32){
+    e.preventDefault();
     $("input[name='hidePast']").prop("checked", !$("input[name='hidePast']").prop("checked"));
     var cls=$("select").val();
     filterTable(cls);
