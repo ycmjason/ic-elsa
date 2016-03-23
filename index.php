@@ -139,6 +139,9 @@ Candidates permitted extra time (and not using a computer) will sit in Room 219b
 <div class="fb-page" data-href="https://www.facebook.com/pages/Project-Elsa/368156860037103" data-width="280" data-height="130" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"></div>
         </div>
       </div>
+      <div class="text-center">
+        <h4>Timetable changes to year 2 students has been reflected in this table! Please report if you identify wrong information.</h4>
+      </div>
       <div class="selector">
         Select your favorite class:
         <select>
