@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-$VERSION="2.71";
+$VERSION="2.8";
 date_default_timezone_set("Europe/London");
 require("../visitorlog.php");
 $logger=new VisitorLogger("elsa.log");
@@ -84,25 +84,28 @@ $logger->log();
                 </ul>
                 <ul>
                   <li>
-                    v2.41: Added some padding at the bottom of the timetable as requested by Paul Balaji. (18 Apr)
+                    v2.41: Added some padding at the bottom of the timetable as requested by Paul Balaji. (18 Apr 2015)
                   </li>
                   <li>
-                    v2.5: In case you don't want to see the past exam, you can hide them now. Credits to Amey.(28 Apr)
+                    v2.5: In case you don't want to see the past exam, you can hide them now. Credits to Amey.(28 Apr 2015)
                   </li>
                   <li>
-                    v2.6: Refresh table without refreshing the page. [need to refresh your page for update of Elsa] (30 Apr)
+                    v2.6: Refresh table without refreshing the page. [need to refresh your page for update of Elsa] (30 Apr 2015)
                   </li>
                   <li>
-                    v2.7: Auto-refreshing countdown (1 May)
+                    v2.7: Auto-refreshing countdown (1 May 2015)
                   </li>
                   <li>
-                    v2.7: Scary countdown is on the table! Credits to Derek Law! :D (1 May)
+                    v2.7: Scary countdown is on the table! Credits to Derek Law! :D (1 May 2015)
                   </li>
                   <li>
-                    v2.7: Hit [space-bar] toggle hidePast. (1 May)
+                    v2.7: Hit [space-bar] toggle hidePast. (1 May 2015)
                   </li>
                   <li>
-                    v2.71: Fixed countdown alert(red text) (5 May)
+                    v2.71: Fixed countdown alert(red text) (5 May 2015)
+                  </li>
+                  <li>
+                    v2.8: Hide Elsa is possible if she ever embarrassed you. (28 March 2016)
                   </li>
                 </ul>
               </div>
@@ -152,6 +155,9 @@ Candidates permitted extra time (and not using a computer) will sit in Room 219b
         </label>
         <label>
           <input name="hidePast" type="checkbox">hide past exam! (hit [space-bar])
+        </label>
+        <label>
+          <input name="hideElsa" type="checkbox">hide elsa! she embarrassed me!
         </label>
       </div>
       <div style="position:relative">
@@ -376,6 +382,12 @@ $("input[name='hidePast']").change(function(){
   var cls=$("select").val();
   filterTable(cls);
 });
+//v2.8 hideElsa
+$("input[name='hideElsa']").change(function(){
+  var bg_url = $(this).prop("checked")? "url()": "url('elsa.png')";
+  $(".jumbotron").css("background-image", bg_url);
+});
+
 //2.6 refresh table
 $(".refresh-button").click(updateCountDown);
 //2.7 auto refresh
