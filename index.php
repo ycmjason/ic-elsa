@@ -386,6 +386,11 @@ $("input[name='hidePast']").change(function(){
 $("input[name='hideElsa']").change(function(){
   var bg_url = $(this).prop("checked")? "url()": "url('elsa.png')";
   $(".jumbotron").css("background-image", bg_url);
+  if($(this).prop("checked")){
+    $.post("./addPref.php", {pref:"hideElsa"});
+  }else{
+    $.post("./addPref.php", {pref:"showElsa"});
+  }
 });
 
 //2.6 refresh table
