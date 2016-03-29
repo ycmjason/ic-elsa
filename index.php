@@ -44,9 +44,6 @@ $logger->log();
                     Elsa was created on 30 March 2015. 
                   </li>
                   <li>
-                    Elsa shows the exam timetable starting from 27 Apri 2015. 
-                  </li>
-                  <li>
                     Elsa filters the timetable according to your selection.
                   </li>
                   <li>
