@@ -13,7 +13,7 @@ $logger->log();
     <script src="./jquery.cookie.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="./index.css">
-    <link href="http://pbs.twimg.com/profile_images/1208487557/favicon_E_2.jpg" rel="icon" type="image/x-icon" />
+    <link href="http://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2015-02-02/21a870681b99b160c34cd8e1285bd6e3.ico" rel="icon" type="image/x-icon" />
     <meta name="description" content="Elsa is an exam timetable assistant, created in 2015, which allow user to filter their class' exam timetable and provide a countdown for each exam.">
     <meta name="keywords" content="elsa imperial doc computing timetable exam filter assistant">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
