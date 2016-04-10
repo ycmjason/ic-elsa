@@ -140,7 +140,7 @@ Candidates permitted extra time (and not using a computer) will sit in Room 219b
         </div>
       </div>
       <div class="text-center">
-        <h4>Timetable changes to year 2 students has been reflected in this table! Please report if you identify wrong information.</h4>
+        <h4 class="lead"><a href="https://www.doc.ic.ac.uk/~cmy14/elsa3/">Elsa 3 is out! Try it out now!</a></h4>
       </div>
       <div class="selector">
         Select your favorite class:
